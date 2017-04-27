@@ -10,3 +10,7 @@ Ambos os processos ficando checando se o outro está vivo. O pai aguarda a final
 No caso do filho, se o pai estiver morto, ele executa um `fork`, o filho começa do ponto onde ele parou e ele agora fica checando se este novo filho continua.
 
 Se ambos forem mortos simultaneamente, o programa é parado e você vence o vírus (no windows é uma dificuldade razoável, enquanto no linux basta um `kill` com dois argumentos).
+
+## NÃO EXECUTE ESSE CÓDIGO
+
+NÃO EXECUTE ESTE CÓDIGO. A execução deste código é por sua conta e risco, pois seu funcionamento padrão é inutilização de toda a pasta do usuário.
